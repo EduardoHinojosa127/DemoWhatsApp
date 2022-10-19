@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10sp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imagen"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:src="@drawable/imgconfiguracion"
+        app:civ_border_width="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="15sp">
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="AA"
+            />
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="AA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.3"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:textColor="#1EDA5A"
+            android:text="5:23 p.m."
+            android:textSize="13sp"
+            android:gravity="center_vertical|right"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:gravity="center_vertical|right">
+            <TextView
+                android:id="@+id/cant_msj"
+                android:layout_width="22sp"
+                android:layout_height="22sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@drawable/circular"
+                android:text="7"
+                android:textSize="13sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

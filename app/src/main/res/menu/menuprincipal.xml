@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/ajustes"
+        android:title="Ajustes"
+        app:showAsAction="never"/>
+    <item android:id="@+id/acerca_de"
+        android:title="Acerca de ..."
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/chat"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:orderInCategory="2"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="1"
+        android:title="Buscar"
+        app:showAsAction="always" />
+</menu>
